@@ -48,4 +48,6 @@ pr.L2.2	- probability of receiving IO second-line therapy
 
 ## 3. Pre-fit multi-state models
 
-## 4. Run microsimulation with multi-
+## 4. Run microsimulation with multi-state models
+
+## 4. Run microsimulation with patient trajectories
