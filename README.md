@@ -65,6 +65,21 @@ CSV file with synthetic data: base case produces "clayton125.csv", which will be
 
 ## 3. Pre-fit multi-state models
 
+mstate_setup_for_microsimulation.R
+
+This code pre-fits a multi-state model to the synthetic dataset.
+It also includes a function to extract the  model-based 
+transition matrix for a specific patient conditional on model time.
+Results are saved in a .RData file for later use.
+This code uses the R package mstate to fit the models and
+obtain relevant predictions 
+
+inputs:
+- synthetic dataset [out.type]125.csv (e.g. clayton125.csv)
+
+outputs:
+- msmFits_[out.type]125.RData (e.g. msmfits_clyaton125.csv
+
 ## 4. Run microsimulation with multi-state models
 
 ## 5. Run microsimulation with patient trajectories
