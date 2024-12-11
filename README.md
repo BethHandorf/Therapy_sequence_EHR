@@ -75,10 +75,10 @@ This code uses the R package mstate to fit the models and
 obtain relevant predictions 
 
 inputs:
-- synthetic dataset [out.type]125.csv (e.g. clayton125.csv)
+- synthetic dataset: [out.type]125.csv (e.g. clayton125.csv)
 
 outputs:
-- msmFits_[out.type]125.RData (e.g. msmfits_clyaton125.csv
+- R workspace: msmFits_[out.type]125.RData (e.g. msmfits_clyaton125.Rmd)
 
 ## 4. Run microsimulation with multi-state models
 
