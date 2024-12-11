@@ -46,8 +46,6 @@ pr.L2.2	- probability of receiving IO second-line therapy
 
 Files:  
 - sim_dataset.csv  
-- reg_param_est.xlsx  
-
 
 ## 2. Code to simulate outcomes
 create_synthetic_dataset.R
@@ -69,4 +67,4 @@ CSV file with synthetic data: base case produces "clayton125.csv", which will be
 
 ## 4. Run microsimulation with multi-state models
 
-## 4. Run microsimulation with patient trajectories
+## 5. Run microsimulation with patient trajectories
