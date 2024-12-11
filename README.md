@@ -14,7 +14,7 @@ Acknowledgement: this project uses code adapted from
 
 # Contents
 
-## 1. Synthetic EHR data
+## 1. Synthetic EHR-like covariates
 Data dictionary for synthetic patient data (created to mimic EHR-derived variables)	
 Note: this is fully simulated data, no patient data is present	
 	
