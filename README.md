@@ -92,11 +92,12 @@ small number of replicates are shown here for demonstration purposes.
 Note there are placeholders in this code for AE states, but they are not used here. 
 
 inputs:
-- R workspace: msmFits_[out.type]125.RData (e.g. msmfits_clyaton125.Rmd)
+- R workspace: msmFits_[out.type]125.RData (e.g. msmfits_clyaton125.RData)
 
 outputs:
-- results (shown in console)
-- .Rdata objects saving resampled results for summarization
+- results (printed in console)
+- .RData file saving fitted model
 - Plots of calibration
+- .RData objects saving resampled results for summarization
 
 ## 5. Run microsimulation with patient trajectories
