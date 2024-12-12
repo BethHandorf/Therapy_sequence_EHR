@@ -82,4 +82,21 @@ outputs:
 
 ## 4. Run microsimulation with multi-state models
 
+This code runs a microsimulation model based on probabilities from a pre-fit 
+multi-state model. mstate_setup_for_microsimulation.R MUST be run FIRST and the 
+resulting .Rmd file is read in.  This code runs the  microsimulation, checks 
+model calibration, and summarizes results.  It also re-fits the model, resampling 
+the patient population and changing the random seed.  This should ideally be 
+modified to run in parallel on a high-performance computing environment.  A
+small number of replicates are shown here for demonstration purposes.
+Note there are placeholders in this code for AE states, but they are not used here. 
+
+inputs:
+- R workspace: msmFits_[out.type]125.RData (e.g. msmfits_clyaton125.Rmd)
+
+outputs:
+- results (shown in console)
+- .Rdata objects saving resampled results for summarization
+- Plots of calibration
+
 ## 5. Run microsimulation with patient trajectories
