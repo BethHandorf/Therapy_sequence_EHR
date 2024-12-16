@@ -82,6 +82,8 @@ outputs:
 
 ## 4. Run microsimulation with multi-state models
 
+mstate_microsimulation.R
+
 This code runs a microsimulation model based on probabilities from a pre-fit 
 multi-state model. mstate_setup_for_microsimulation.R MUST be run FIRST and the 
 resulting .Rmd file is read in.  This code runs the  microsimulation, checks 
@@ -101,6 +103,8 @@ outputs:
 - .RData objects saving resampled results for summarization
 
 ## 5. Run microsimulation with patient trajectories
+
+trajectory_microsimulation.R
 
 This code runs a microsimulation model based on observed patient trajectories
 After censoring occurs, transition probabilities come from a pre-fit
