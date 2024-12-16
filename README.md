@@ -101,3 +101,21 @@ outputs:
 - .RData objects saving resampled results for summarization
 
 ## 5. Run microsimulation with patient trajectories
+
+This code runs a microsimulation model based on observed patient trajectories
+After censoring occurs, transition probabilities come from a pre-fit
+multi-state model. mstate_setup_for_microsimulation.R MUST be run FIRST and the
+resulting .Rmd file is read in.  This code runs the  microsimulation, checks
+model calibration, and summarizes results.  It also re-fits the model, resampling
+the patient population and changing the random seed.  This could be
+modified to run in parallel on a high-performance computing environment. 
+Note there are placeholders in this code for AE states, but they are not used here.
+
+inputs:
+- R workspace: msmFits_[out.type]125.RData (e.g. msmfits_clyaton125.RData)
+
+outputs:
+- results (printed in console)
+- .RData file saving fitted model
+- Plots of calibration
+- .RData objects saving resampled results for summarization
