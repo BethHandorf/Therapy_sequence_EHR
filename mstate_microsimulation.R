@@ -541,7 +541,8 @@ save.image(paste("msmMicrosimRes_",out.type,"125.RData", sep=""))
 
 # using 5 for demonstration increase number of repetitions to 50-100.  
 # Note: this should ideally be done in parallel
-
+eff.Carbo<-eff.Cis<-cost.Carbo<-cost.Cis<-rep(NA,100)
+		  
 for (i in 1:5) {
 
   seed_msim=100+i
